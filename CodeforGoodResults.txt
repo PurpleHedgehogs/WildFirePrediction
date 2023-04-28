@@ -1,0 +1,148 @@
+C:\Users\shiva_0jecn46\PycharmProjects\CodeforGood\venv\Scripts\python.exe C:/Users/shiva_0jecn46/PycharmProjects/CodeforGood/CodeforGood.py
+Loaded weather data :    EventId  Type Severity  ...    County State  ZipCode
+0     W-1  Snow    Light  ...  Saguache    CO  81149.0
+
+[1 rows x 14 columns]
+Number of weather events in CA: 4331950
+Grouped data :      Year  Month           Type  Severity  Count  Mean_Duration
+0   2016      1           Cold    Severe    179   22092.737430
+1   2016      1            Fog  Moderate    887    4872.784667
+2   2016      1            Fog    Severe   2170    4933.990783
+3   2016      1  Precipitation       UNK    135    1651.111111
+4   2016      1           Rain     Heavy    126    1879.523810
+5   2016      1           Rain     Light   4428    5021.598916
+6   2016      1           Rain  Moderate   1037    2777.820636
+7   2016      1           Snow     Heavy     88    2449.772727
+8   2016      1           Snow     Light    367    4676.239782
+9   2016      1           Snow  Moderate    166    2068.554217
+10  2016      1          Storm    Severe     75    3556.000000
+11  2016      2           Cold    Severe    204   25397.941176
+Recent Fire data :       AcresBurned  Active  ...               Updated  WaterTenders
+431     132127.0   False  ...  2016-10-13T11:30:00Z           NaN
+
+[1 rows x 40 columns]
+Fire data grouped by Acres burnt :     ArchiveYear  Month  AcresBurned  Count
+0         2016      4        231.0      4
+1         2016      5       8904.0     16
+2         2016      6      92616.0     40
+3         2016      7     145672.0     45
+4         2016      8     212946.0     43
+5         2016      9      34008.0     30
+Fire data with bad year :     ArchiveYear  AcresBurned  Count  BadYear
+0         2016     505927.0    185    False
+1         2017    1793915.0    438     True
+2         2018    3358049.0    316     True
+3         2019     285708.0    266    False
+[[0.]
+ [1.]
+ [1.]]
+Setting up model
+Creating Input layer with size : 264
+WARNING:absl:`lr` is deprecated in Keras optimizer, please use `learning_rate` or use the legacy optimizer, e.g.,tf.keras.optimizers.legacy.SGD.
+Model: "learnModel"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 264)]             0         
+                                                                 
+ dense (Dense)               (None, 264)               69960     
+                                                                 
+ dense_1 (Dense)             (None, 90)                23850     
+                                                                 
+ dense_2 (Dense)             (None, 40)                3640      
+                                                                 
+ dense_3 (Dense)             (None, 1)                 41        
+                                                                 
+=================================================================
+Total params: 97,491
+Trainable params: 97,491
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/40
+1/1 [==============================] - 0s 357ms/step - loss: 0.1975 - accuracy: 0.6667
+Epoch 2/40
+1/1 [==============================] - 0s 4ms/step - loss: 0.1862 - accuracy: 0.6667
+Epoch 3/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.1718 - accuracy: 1.0000
+Epoch 4/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.1592 - accuracy: 1.0000
+Epoch 5/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.1481 - accuracy: 1.0000
+Epoch 6/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.1378 - accuracy: 1.0000
+Epoch 7/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.1286 - accuracy: 1.0000
+Epoch 8/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.1201 - accuracy: 1.0000
+Epoch 9/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.1123 - accuracy: 1.0000
+Epoch 10/40
+1/1 [==============================] - 0s 2ms/step - loss: 0.1051 - accuracy: 1.0000
+Epoch 11/40
+1/1 [==============================] - 0s 2ms/step - loss: 0.0986 - accuracy: 1.0000
+Epoch 12/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.0926 - accuracy: 1.0000
+Epoch 13/40
+1/1 [==============================] - 0s 2ms/step - loss: 0.0870 - accuracy: 1.0000
+Epoch 14/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.0819 - accuracy: 1.0000
+Epoch 15/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.0773 - accuracy: 1.0000
+Epoch 16/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.0728 - accuracy: 1.0000
+Epoch 17/40
+1/1 [==============================] - 0s 3ms/step - loss: 0.0686 - accuracy: 1.0000
+Epoch 18/40
+1/1 [==============================] - 0s 2ms/step - loss: 0.0647 - accuracy: 1.0000
+Epoch 19/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0611 - accuracy: 1.0000
+Epoch 20/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0579 - accuracy: 1.0000
+Epoch 21/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0549 - accuracy: 1.0000
+Epoch 22/40
+1/1 [==============================] - 0s 9ms/step - loss: 0.0520 - accuracy: 1.0000
+Epoch 23/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0495 - accuracy: 1.0000
+Epoch 24/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0472 - accuracy: 1.0000
+Epoch 25/40
+1/1 [==============================] - 0s 10ms/step - loss: 0.0449 - accuracy: 1.0000
+Epoch 26/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0430 - accuracy: 1.0000
+Epoch 27/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0412 - accuracy: 1.0000
+Epoch 28/40
+1/1 [==============================] - 0s 10ms/step - loss: 0.0395 - accuracy: 1.0000
+Epoch 29/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0378 - accuracy: 1.0000
+Epoch 30/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0362 - accuracy: 1.0000
+Epoch 31/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0348 - accuracy: 1.0000
+Epoch 32/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0334 - accuracy: 1.0000
+Epoch 33/40
+1/1 [==============================] - 0s 16ms/step - loss: 0.0320 - accuracy: 1.0000
+Epoch 34/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0308 - accuracy: 1.0000
+Epoch 35/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0297 - accuracy: 1.0000
+Epoch 36/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0286 - accuracy: 1.0000
+Epoch 37/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0276 - accuracy: 1.0000
+Epoch 38/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0266 - accuracy: 1.0000
+Epoch 39/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0257 - accuracy: 1.0000
+Epoch 40/40
+1/1 [==============================] - 0s 0s/step - loss: 0.0248 - accuracy: 1.0000
+1/1 - 0s - loss: 0.0240 - accuracy: 1.0000 - 116ms/epoch - 116ms/step
+Test loss: 0.023985883221030235
+Test accuracy: 1.0
+1/1 [==============================] - 0s 88ms/step
+1/1 [==============================] - 0s 33ms/step
+In California, 2023 will be a bad year with a lot of wildfires
+
+Process finished with exit code 0
