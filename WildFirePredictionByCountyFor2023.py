@@ -109,7 +109,7 @@ groupedFireYear['BadYear'] =groupedFireYear['AcresBurned'] >  mean.item()
 groupedFireYear.head(5)
 print("Fire data with bad year : ", groupedFireYear.head(5))
 
-#trying to do only for Alameda County
+#Filter for Alameda County
 
 isAlamedaFire = groupedFireYear['Counties'].isin(['Alameda'])
 print ("isSonomaFire : ", isAlamedaFire)
