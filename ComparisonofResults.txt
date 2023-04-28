@@ -1,0 +1,17 @@
+Test loss: 0.0455043651163578
+Test accuracy: 1.0
+1/1 [==============================] - 0s 86ms/step
+1/1 [==============================] - 0s 31ms/step
+In California, 2023 will be a bad year with a lot of wildfires
+
+
+1/1 - 0s - loss: 0.0070 - accuracy: 1.0000 - 110ms/epoch - 110ms/step
+Test loss: 0.006971919443458319
+Test accuracy: 1.0
+1/1 [==============================] - 0s 89ms/step
+1/1 [==============================] - 0s 34ms/step
+In Alameda County, 2023 will be a good year with little wildfires
+
+
+
+
